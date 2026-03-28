@@ -1,6 +1,8 @@
-// Hardcoded values for the season and plant type
-let season = "summer"; // TODO: Replace with prompt() to allow user interaction.
-let plantType = "flower"; // TODO: Replace with prompt() to allow user interaction.
+// Ask the user to enter the current season
+let season = prompt("Enter a season (summer, winter, etc):").toLowerCase();
+
+// Ask the user to enter the plant type
+let plantType = prompt("Enter a plant type (flower or vegetable):").toLowerCase();
 
 // Variable to hold gardening advice
 let advice = "";
